@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JK SUPER TEAM</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body and Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+
+    /* Navbar Styles */
+    nav {
+      background-color: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #f44336;
+    }
+
+    /* Hero Section */
+    header {
+      text-align: center;
+      padding: 150px 20px;
+      background: url('https://www.example.com/successful-people.jpg') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    header h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+      color: #f44336;
+    }
+
+    header h2 {
+      font-size: 30px;
+      color: #ddd;
+    }
+
+    /* Team Section */
+    .team {
+      background-color: #222;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .team h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #f44336;
+    }
+
+    .team .founder {
+      font-size: 50px;
+      font-weight: bold;
+      color: #f44336;
+      margin-bottom: 30px;
+    }
+
+    .team .members {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .team .member {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 8px;
+      color: #fff;
+    }
+
+    .team .member h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #f44336;
+    }
+
+    .team .member p {
+      font-size: 18px;
+      color: #ddd;
+    }
+
+    /* History Section */
+    .history {
+      background-color: #111;
+      color: #ddd;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .history h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #f44336;
+    }
+
+    .history p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.8;
+      color: #bbb;
+    }
+
+    /* Contact Section */
+    .contact {
+      background-color: #222;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #f44336;
+    }
+
+    .contact p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.8;
+      color: #bbb;
+    }
+
+    /* Footer Section */
+    footer {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+      color: #888;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <h1>JK SUPER TEAM</h1>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#history">History</a></li>
+      <li><a href="#contact">Contact</a></li> <!-- Added the Contact link here -->
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Welcome to JK SUPER TEAM</h1>
+    <h2>Empowering Innovation, Achieving Success</h2>
+  </header>
+
+  <!-- Team Section -->
+  <section id="team" class="team">
+    <h2>Meet Our Team</h2>
+    <div class="founder">
+      Jeevan Singh - Founder & President
+    </div>
+    <div class="members">
+      <div class="member">
+        <h3>Paras Manro</h3>
+        <p>Team Member</p>
+      </div>
+      <div class="member">
+        <h3>Jasmanjot Singh</h3>
+        <p>Team Member</p>
+      </div>
+      <div class="member">
+        <h3>Jaideep Singh</h3>
+        <p>Team Member</p>
+      </div>
+      <div class="member">
+        <h3>Karanjot Singh</h3>
+        <p>Team Member</p>
+      </div>
+      <div class="member">
+        <h3>Ayush Verma</h3>
+        <p>Team Member</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- History Section -->
+  <section id="history" class="history">
+    <h2>Our History</h2>
+    <p>
+      The JK SUPER TEAM was founded by Jeevan Singh on July 1, 2019. Over the years, the team has seen multiple changes in size, but it currently consists of 6 dedicated members. 
+      On August 19, 2019, a new company, KOGA™®, emerged from JK SUPER TEAM, marking a successful expansion. 
+      Unfortunately, the rise of the KOGA company was cut short by the COVID-19 pandemic, and it closed in March 2020. This caused significant challenges for both companies.
+      However, JK SUPER TEAM is once again thriving and is excited to announce that it is going online. Our products will soon be listed on the website, and we are looking forward to offering online services in the near future.
+    </p>
+    <p>
+      For more information on the history and agenda of KOGA™, please visit this link: <strong>(NOT AVAILABLE YET)</strong>.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>For business-related queries, kindly email us at <a href="mailto:jksuperteamhelp@gmail.com" style="color: #f44336;">jksuperteamhelp@gmail.com</a></p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 JK SUPER TEAM. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
